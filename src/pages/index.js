@@ -430,7 +430,7 @@ With a cowculator.`,
   return (
     <div className="flex h-screen items-center justify-center bg-gray-100">
       <div className="bg-white p-6 rounded-2xl shadow-lg max-w-xl text-center">
-        <h1 className="text-2xl font-bold mb-4 text-blue-600">
+        <h1 className="text-2xl font-bold mb-4 text-blue-500">
           😂 Random Joke
         </h1>
         <p className="text-lg text-black">{randomJoke || "Loading joke..."}</p>
